@@ -59,5 +59,7 @@ console.log("Getting all evens using filter ES5: ",A)
 
 //ES6
 A = A.filter(x => x % 2 === 0);
+// A = A.filter(x => !(x % 2)); //Even shorter way of writing it because the filter is returning a true or false already!!! 
+
 // A = A.filter(x => x % 2 === 1); //ODDS
 console.log("Getting all evens using filter ES6: ", A)
